@@ -13,3 +13,12 @@ void incrementInternalVariables() {
     incrementAnon();
 }
 ```
+### Output
+```
+=== main.cpp ===
+[external] externalCounter = 1
+[external] externalCounter = 2
+[main] externalCounter = 2
+[internal static] internalCounter = 1
+[internal anon] anonCounter = 1
+```
